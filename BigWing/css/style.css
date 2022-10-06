@@ -4,6 +4,10 @@ body {
   background-color: #ffffff;
 }
 
+button {
+  background-color: #feb543 !important;
+}
+
 .layout_padding {
   padding: 75px 0;
 }
@@ -214,7 +218,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 14px;
   background-position: center;
-  background-color: #383a90;
+  background-color: #FF577F;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -247,7 +251,7 @@ a:focus {
   text-align: center;
   line-height: 55px;
   color: #f9fcfb;
-  background-color: #547bfe;
+  background-color: #FF577F;
   opacity: 1;
   display: none;
 }
@@ -469,6 +473,10 @@ a:focus {
   width: 100%;
 }
 
+.client_section {
+  background-color: #FF884B;
+}
+
 .client_section h2 {
   font-weight: bold;
   text-align: center;
@@ -483,7 +491,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 14px;
   background-position: center;
-  background-color: #383a90;
+  background-color: #FFD384;
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -491,7 +499,7 @@ a:focus {
 
 .client_section .carousel-control-prev:hover,
 .client_section .carousel-control-next:hover {
-  background-color: #feb543;
+  background-color: black;
 }
 
 .client_section .carousel-control-prev {
@@ -526,7 +534,7 @@ a:focus {
 .client_container .detail-box .img-box {
   width: 75px;
   margin-right: 15px;
-  border: 10px solid #9852f2;
+  border: 10px solid #FFF9B0;
   border-radius: 100%;
   overflow: hidden;
 }
