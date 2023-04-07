@@ -330,6 +330,7 @@ a:focus {
 }
 
 .service_section {
+
   text-align: center;
   color: #f9fcfb;
   background-image: url(../images/service-bg.png);
@@ -338,6 +339,14 @@ a:focus {
   padding-bottom: 125px;
   background-repeat: no-repeat;
   margin-top: -150px;
+
+}
+video {
+  height: 53vh;
+  border-radius: 25px;
+}
+video::-webkit-media-controls { 
+  display:none !important;
 }
 
 .service_section .custom_heading-container h2 {
