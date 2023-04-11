@@ -350,12 +350,28 @@ video::-webkit-media-controls {
   display:none !important;
 }
 
+/*Poule qui danse */
 .poule {
-  max-width: 130px;
+  max-width: 135px;
+  position: absolute;
+  bottom: 5px;
   border-radius: 25px;
-  
 }
 
+.poulet{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.poulet>p{grid-area: 1 / 1 / 2 / 2;
+z-index: 10;}
+
+.poulet>img{
+  grid-area: 1 / 1 / 2 / 2;z-index: 1;;
+}
 
 .service_section .custom_heading-container h2 {
   border-color: #f9fcfb;
