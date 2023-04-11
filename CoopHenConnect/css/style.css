@@ -341,13 +341,21 @@ a:focus {
   margin-top: -150px;
 
 }
+/* Vidéo qui bouge solo */
 video {
-  height: 53vh;
+  height: 48vh;
   border-radius: 25px;
 }
 video::-webkit-media-controls { 
   display:none !important;
 }
+
+.poule {
+  max-width: 130px;
+  border-radius: 25px;
+  
+}
+
 
 .service_section .custom_heading-container h2 {
   border-color: #f9fcfb;
