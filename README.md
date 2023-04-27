@@ -1,4 +1,4 @@
-# WorkShop_CoopHenConnect
+# CoopHenConnect
 
 Site Web d'un projet académique innovant.
 
